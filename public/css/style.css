@@ -1,0 +1,17 @@
+html, body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  padding-left: 3%;
+}
+
+p {
+  padding-left: 3%;
+}
+
+input {
+  width: 100%;
+  padding: 2%;
+}

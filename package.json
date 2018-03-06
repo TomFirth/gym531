@@ -1,0 +1,26 @@
+{
+  "name": "gym531",
+  "description": "5-3-1 gym workout",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/TomFirth/gym531.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "standard"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "lodash": "4.17.5",
+    "pug": "2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.17.1",
+    "standard": "11.0.0"
+  }
+}
