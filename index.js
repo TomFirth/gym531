@@ -36,6 +36,7 @@ app.get('/workout', (req, res) => {
   _.forEach(config, (week, index) => {
     _.forEach(week, (set, key) => {
       output.push({
+        week: index,
         set: key,
         weight: round5(req.query.max * (set.p / 100)) + ' x ' + set.x
       })
