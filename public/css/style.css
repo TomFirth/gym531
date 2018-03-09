@@ -12,6 +12,8 @@ p {
 }
 
 input {
-  width: 100%;
+  width: 95%;
+  margin: 0 2.5%;
   padding: 2%;
+  border: 1px solid #666666;
 }
