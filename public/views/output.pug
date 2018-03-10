@@ -1,0 +1,19 @@
+//- tabs
+
+a(href='/workout/1/' + output.query) 1
+a(href='/workout/2/' + output.query) 2
+a(href='/workout/3/' + output.query) 3
+a(href='/workout/4/' + output.query) 4
+
+p
+  table
+    tr
+      td 
+        b #
+      td
+        b Set
+    each set in output
+      tr
+        td
+          b= set.set
+        td= set.weight

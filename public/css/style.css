@@ -9,11 +9,17 @@ h1 {
 
 p {
   padding-left: 3%;
+  clear: both;
 }
 
-input {
-  width: 95%;
+input[type=text] {
+  width: 60%;
   margin: 0 2.5%;
   padding: 2%;
   border: 1px solid #666666;
+  float: left;
+}
+
+input[type=checkbox] {
+  float: left;
 }
