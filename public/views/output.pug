@@ -1,9 +1,11 @@
-//- tabs
-
-a(href='/workout/1/' + output.query) 1
-a(href='/workout/2/' + output.query) 2
-a(href='/workout/3/' + output.query) 3
-a(href='/workout/4/' + output.query) 4
+ul
+  each menu in output.nav
+    if menu.active
+      li#active
+        a(href='/workout/' + menu.number + '/' + output.query)= menu.number
+    else
+      li
+        a(href='/workout/' + menu.number + '/' + output.query)= menu.number
 
 p
   table
@@ -12,7 +14,7 @@ p
         b #
       td
         b Set
-    each set in output
+    each set in output.workout
       tr
         td
           b= set.set
